@@ -64,7 +64,7 @@ update msg model =
             
             
 
---view
+-- view
 todoItem : String -> Html Msg
 todoItem todo =
     li [][text todo 
